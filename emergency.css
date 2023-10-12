@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to bottom right, #0a0a0a, #333333);
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #FF4500;
+    text-shadow: 0 0 10px rgba(255, 69, 0, 0.8);
+}
+
+.emergency-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-group {
+    background: #333333;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 69, 0, 0.8);
+    transition: all 0.3s ease;
+    width: 300px;
+    text-align: left;
+}
+
+.contact-group:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 69, 0, 1);
+}
+
+.contact-name {
+    font-weight: bold;
+    color: #FF4500;
+    text-shadow: 0 0 10px rgba(255, 69, 0, 0.8);
+}
+
+.contact-number {
+    color: #00FF00;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
