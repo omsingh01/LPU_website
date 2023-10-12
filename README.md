@@ -1,4 +1,4 @@
-# LPU_website
+# LPU_website -https://preums.netlify.app/
 # TGPA/CGPA Calculator
 
 This web application provides a simple and intuitive interface to calculate TGPA (Term Grade Point Average) or CGPA (Cumulative Grade Point Average) based on user input for subjects' credits and grades. The calculator allows students to quickly determine their academic performance.
